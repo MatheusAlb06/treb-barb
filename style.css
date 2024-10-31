@@ -1,0 +1,101 @@
+body {
+    background-color: #212226;
+}
+
+.top {
+    background-color: #3d3e41;
+    padding: 20px;
+    margin: -8px;
+    display: flex;
+    justify-content: center;
+    gap: 100px; 
+}
+
+
+.btntop button {
+    font-family: Arial;
+    font-weight: bold;
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s, color 0.3s;
+    width: 180px;
+    padding: 10px 30px; 
+    font-size: 12px; 
+}
+
+.btntop button:hover {
+    background-color: #212226;
+    color: white;
+}
+
+.logo {
+    margin-top: -100px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    float: left;
+    margin-left: 170px;
+}
+
+.titlogo {
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    margin-left: 100px;
+}
+
+.img {
+    background-color: #3d3e41;
+    width: 101%;
+    height: 250px;
+    margin-left: -7px;
+    margin-top: -50px;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    float: left;
+}
+
+.img img {
+    border-radius: 20px;
+}
+
+.img img, .img p {
+    margin: 50px; 
+}
+
+footer {
+    position: fixed; 
+    font-family: Arial;
+    font-weight: bold;
+    left: 0; 
+    bottom: 0; 
+    width: 100%; 
+    color: white; 
+    text-align: center; 
+    display: flex;
+    justify-content: center;
+    padding: 10px; 
+    gap: 200px;
+}
+
+.rodape {
+    width: 100%;
+    height: 50px;
+}
+
+.rodape img {
+    float: left;
+    margin-left: 480px;
+    margin-top: 12px;
+}
+
+.rodape p {
+    float: left;
+    margin-left: 100px;
+    margin-top: 10px;
+}
